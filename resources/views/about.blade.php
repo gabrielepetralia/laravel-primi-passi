@@ -9,8 +9,8 @@
 <body>
     @include("partials.header")
     <main>
-        <h1>Home</h1>
-        <p>Hello {{ $name }} {{ $surname }}</p>
+        <h1>About me</h1>
+        <p>I'm {{ $age }} years old</p>
     </main>
 </body>
 </html>

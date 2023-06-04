@@ -18,3 +18,8 @@ Route::get('/', function () {
     $surname = "Petralia";
     return view("home", compact("name","surname"));
 });
+
+Route::get('/about', function () {
+    $age = 19;
+    return view("about", compact("age"));
+});

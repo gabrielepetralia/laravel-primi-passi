@@ -7,10 +7,17 @@
     <title>Laravel Primi Passi</title>
 </head>
 <body>
-    @include("partials.header")
-    <main>
-        <h1>Home</h1>
-        <p>Hello {{ $name }} {{ $surname }}</p>
-    </main>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/about">About me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
